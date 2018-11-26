@@ -19,6 +19,7 @@
 //                 Maksim Sharipov <https://github.com/pret-a-porter>
 //                 Duong Tran <https://github.com/t49tran>
 //                 Ben Smith <https://github.com/8enSmith>
+//                 Joona Heinikoski <https://github.com/joonamo>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.8
 
