@@ -13,6 +13,7 @@ import {
     Search
 } from "history";
 import { PlainRoute } from "react-router";
+import Route from "./Route";
 
 export interface Params {
     [key: string]: string;
@@ -52,7 +53,7 @@ type GoFunction = (n: number) => void;
 type NavigateFunction = () => void;
 type ActiveFunction = (location: LocationDescriptor, indexOnly?: boolean) => boolean;
 type RemoveLeaveHooksFunction = () => void;
-type LeaveHookFunction = (route: any, callback: RouteHook) => RemoveLeaveHooksFunction;
+type LeaveHookFunction = (route: Route, callback: RouteHook) => RemoveLeaveHooksFunction;
 type CreatePartFunction<Part> = (pathOrLoc: LocationDescriptor, query?: any) => Part;
 
 export interface InjectedRouter {
